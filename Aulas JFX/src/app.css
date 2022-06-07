@@ -23,3 +23,5 @@
 #selecaoTurma {
     -fx-text-fill: #000000;
 }
+#fundo {
+    -fx-background-color: #6272a4;
