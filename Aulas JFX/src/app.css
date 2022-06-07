@@ -1,0 +1,25 @@
+#textoCadastro {
+    -fx-text-fill: #f8f8f2;
+}
+
+#textoAluno {
+    -fx-text-fill: #f8f8f2;
+}
+
+#CampoTurma {
+    -fx-text-fill: #f8f8f2;
+}
+
+#btnEntrar {
+    -fx-background-color: #f8f8f2;
+    -fx-text-fill: #282a36;
+}
+
+#btnEntrar:hover {
+    -fx-background-color: #282a36;
+    -fx-text-fill: #f8f8f2;
+}
+
+#selecaoTurma {
+    -fx-text-fill: #000000;
+}
