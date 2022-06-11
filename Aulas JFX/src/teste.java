@@ -10,6 +10,5 @@ public class teste {
         data.set(Calendar.DATE, 8);
         Date dataFim = data.getTime();
         System.out.println(dataFim);
-
     }
 }

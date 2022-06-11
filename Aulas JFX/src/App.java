@@ -11,7 +11,7 @@ public class App extends Application{
     }
     @Override
     public void start(Stage tela) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("ProjetoBiblioteca.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("View/ProjetoBiblioteca.fxml"));
         Scene cena = new Scene(root);
         tela.setScene(cena);
         tela.show(); 
