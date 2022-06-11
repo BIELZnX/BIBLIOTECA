@@ -84,6 +84,7 @@ public class ProjetoBlibioteca implements Initializable{
         
     }
     
+    @FXML
     public void linkarTela(ActionEvent event, String arquivo, String css) throws Exception{
         root = FXMLLoader.load(getClass().geResource(arquivo));
         cena = new scene(root);
@@ -92,6 +93,11 @@ public class ProjetoBlibioteca implements Initializable{
         tela = Stage((Node)evento.getResource()).getScene().getWindow;
         tela.setScene(cena);
         tela.show;
+    }
+    
+    @FXML
+    void abrirTela01(ActionEvent event) throws Exception{
+        linkarTela(event, arquivo:"Tela01.fxml", css:"app.css");
     }
 
     @Override
