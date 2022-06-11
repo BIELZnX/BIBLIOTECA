@@ -83,7 +83,16 @@ public class ProjetoBlibioteca implements Initializable{
         selecaoTurma.getItems().addAll(turmas);
         
     }
-
+    
+    public void linkarTela(ActionEvent event, String arquivo, String css) throws Exception{
+        root = FXMLLoader.load(getClass().geResource(arquivo));
+        cena = new scene(root);
+        cena.getStylesheets()addAll(getClass().getResource(css).toString());
+        
+        tela = Stage((Node)evento.getResource()).getScene().getWindow;
+        tela.setScene(cena);
+        tela.show;
+    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
