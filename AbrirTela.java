@@ -15,16 +15,13 @@ public class AbrirTela {
         Parent root;
         Stage tela;
         Scene cena;
-        // Coloca arquivo na memória para carregar
+        
         root = FXMLLoader.load(getClass().getResource(arquivo));
-        // Cria cena a partir do arquivo
         cena = new Scene(root);
         cena.getStylesheets().addAll(getClass().getResource(css).toString());
-        // Define que a tela que será usada será a mesma da aplicação
+        
         tela = (Stage)((Node)evento.getSource()).getScene().getWindow();
-        // Define nova cena para a 3tela
         tela.setScene(cena);
-        // Mostra a tela
         tela.show();
    }
 }
