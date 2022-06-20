@@ -84,43 +84,6 @@ public class estante {
             alarme.setHeaderText("Alugado com sucesso");
             alarme.show();
         }
-        @FXML 
-        void aluga2(ActionEvent event) {
-            if(check2.isSelected()){
-                check2.getText();
-                Alert alarme = new Alert(AlertType.INFORMATION);
-            alarme.setHeaderText("Alugado com sucesso");
-            alarme.show();
-        }  
-            
-         @FXML 
-          void aluga2(ActionEvent event){
-              if(check3.isSelected()){
-                 check3.getText();
-                 Alert alarme = new Alert(AlertType.INFORMATION);
-            alarme.setHeaderText("Alugado com suceseso");
-            alarme.show();
-         }       
-          @FXML
-           void aluga2(ActionEvent event){
-               if(check4.isSelected()){
-                   check4.getText();
-                   Alert alarme = new Alert (AlertType.INFORMATION);
-            alarme.setHeaderText("Alugado com sucesso");
-            alarme.show();
-         }
-           
-          @FXML
-            void aluga2(ActionEvent event){
-                if(check5.isSelected()){
-                    check5.getText();
-                    Alert alarme = new Alert (AlertType.INFORMATION);
-            alarme.setHeaderText("Alugado com sucesso");
-            alarme.show();
-                        
-                
-  
-
 
 }
 
