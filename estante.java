@@ -87,7 +87,7 @@ public class estante {
         @FXML 
         void aluga2(ActionEvent event) {
             if(check2.isSected()){
-                check1.getText();
+                check2.getText();
                 Alert alarme = new Alert(AlertType.INFORMATION);
             alarme.setHeaderText("Alugado com sucesso");
             alarme.show();
