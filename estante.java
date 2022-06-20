@@ -45,7 +45,7 @@ public class estante {
 
     @FXML
     private Button alugar2;
-
+    
     @FXML
     private Button inicio2;
 
@@ -57,23 +57,23 @@ public class estante {
 
     @FXML
     private Button registro2;
-
+    
     @FXML
     void abririnicio01(ActionEvent event) throws IOException {
         AbrirTela funcoes = new AbrirTela();
-        funcoes.abrirTela(event, "Inicio.fxml");
+        funcoes.abrirTela(event, "Inicio.fxml", "app.css");
     }
 
     @FXML
     void abrirpedidos04(ActionEvent event) throws IOException {
         AbrirTela funcoes = new AbrirTela();
-        funcoes.abrirTela(event, "Pedidos.fxml");
+        funcoes.abrirTela(event, "Pedidos.fxml", "app.css");
     }
 
     @FXML
     void abrirregistro03(ActionEvent event) throws IOException {
         AbrirTela funcoes = new AbrirTela();
-        funcoes.abrirTela(event, "Registro.fxml");
+        funcoes.abrirTela(event, "Registro.fxml", "app.css");
     }
 
     @FXML
@@ -85,6 +85,8 @@ public class estante {
             alarme.show();
         }
 
+
 }
 
 }
+
