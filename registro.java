@@ -20,19 +20,19 @@ public class registro {
     @FXML
     void abrirestante02(ActionEvent event) throws IOException {
         AbrirTela funcoes = new AbrirTela();
-        funcoes.abrirTela(event, "Estante.fxml", "app.css");
+        funcoes.abrirTela(event, "Estante.fxml");
     }
 
     @FXML
     void abririnicio01(ActionEvent event) throws IOException {
         AbrirTela funcoes = new AbrirTela();
-        funcoes.abrirTela(event, "Inicio.fxml", "app.css");
+        funcoes.abrirTela(event, "Inicio.fxml");
     }
 
     @FXML
     void abrirpedidos04(ActionEvent event) throws IOException {
         AbrirTela funcoes = new AbrirTela();
-        funcoes.abrirTela(event, "Pedidos.fxml", "app.css");
+        funcoes.abrirTela(event, "Pedidos.fxml");
     }
 
 }
