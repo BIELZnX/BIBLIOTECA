@@ -86,11 +86,21 @@ public class estante {
         }
         @FXML 
         void aluga2(ActionEvent event) {
-            if(check2.isSected()){
+            if(check2.isSelected()){
                 check2.getText();
                 Alert alarme = new Alert(AlertType.INFORMATION);
             alarme.setHeaderText("Alugado com sucesso");
             alarme.show();
+         @FXML 
+          void aluga2(ActionEvent event){
+              if(check3.isSelected()){
+                 check3.getText();
+                 Alert alarme = new Alert(AlertType.INFORMATION);
+                 alarme.setHeaderText("Alugado com suceseso");
+                  alarme.show();
+                        
+                
+  
 
 
 }
