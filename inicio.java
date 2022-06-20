@@ -31,19 +31,19 @@ public class inicio implements Initializable {
     @FXML
     void abrirestante02(ActionEvent event) throws IOException {
         AbrirTela funcoes = new AbrirTela();
-        funcoes.abrirTela(event, "Estante.fxml", "app.css");
+        funcoes.abrirTela(event, "Estante.fxml");
     }
 
     @FXML
     void abrirpedidos(ActionEvent event) throws IOException {
         AbrirTela funcoes = new AbrirTela();
-        funcoes.abrirTela(event, "Pedidos.fxml", "app.css");
+        funcoes.abrirTela(event, "Pedidos.fxml");
     }
 
     @FXML
     void abrirregistro03(ActionEvent event) throws IOException {
         AbrirTela funcoes = new AbrirTela();
-        funcoes.abrirTela(event, "Registro.fxml", "app.css");
+        funcoes.abrirTela(event, "Registro.fxml");
     }
 
     @Override
