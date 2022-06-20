@@ -61,19 +61,19 @@ public class estante {
     @FXML
     void abririnicio01(ActionEvent event) throws IOException {
         AbrirTela funcoes = new AbrirTela();
-        funcoes.abrirTela(event, "Inicio.fxml", "app.css");
+        funcoes.abrirTela(event, "Inicio.fxml");
     }
 
     @FXML
     void abrirpedidos04(ActionEvent event) throws IOException {
         AbrirTela funcoes = new AbrirTela();
-        funcoes.abrirTela(event, "Pedidos.fxml", "app.css");
+        funcoes.abrirTela(event, "Pedidos.fxml");
     }
 
     @FXML
     void abrirregistro03(ActionEvent event) throws IOException {
         AbrirTela funcoes = new AbrirTela();
-        funcoes.abrirTela(event, "Registro.fxml", "app.css");
+        funcoes.abrirTela(event, "Registro.fxml");
     }
 
     @FXML
